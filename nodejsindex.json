@@ -1,0 +1,86 @@
+{
+    "nodejs": {
+        "25.9.0": {
+            "windows": {
+                "source": {
+                    "url": "https://nodejs.org/dist/v25.9.0/node-v25.9.0.tar.gz"
+                },
+                "archive": {
+                    "x64": {
+                        "url": "https://nodejs.org/dist/v25.9.0/node-v25.9.0-win-x64.zip"
+                    },
+                    "aarch64": {
+                        "url": "https://nodejs.org/dist/v25.9.0/node-v25.9.0-win-arm64.zip"
+                    }
+                },
+                "installer": {
+                    "x64": {
+                        "url": "https://nodejs.org/dist/v25.9.0/node-v25.9.0-x64.msi"
+                    },
+                    "aarch64": {
+                        "url": "https://nodejs.org/dist/v25.9.0/node-v25.9.0-arm64.msi"
+                    }
+                }
+            },
+            "macos": {
+                "source": {
+                    "url": "https://nodejs.org/dist/v25.9.0/node-v25.9.0.tar.gz"
+                },
+                "archive": {
+                    "x64": {
+                        "url": "https://nodejs.org/dist/v25.9.0/node-v25.9.0-darwin-x64.tar.gz"
+                    },
+                    "aarch64": {
+                        "url": "https://nodejs.org/dist/v25.9.0/node-v25.9.0-darwin-arm64.tar.gz"
+                    }
+                },
+                "installer": {
+                    "x64": {
+                        "url": "https://nodejs.org/dist/v25.9.0/node-v25.9.0.pkg"
+                    },
+                    "aarch64": {
+                        "url": "https://nodejs.org/dist/v25.9.0/node-v25.9.0.pkg"
+                    }
+                }
+            },
+            "linux": {
+                "source": {
+                    "url": "https://nodejs.org/dist/v25.9.0/node-v25.9.0.tar.gz"
+                },
+                "archive": {
+                    "x64": {
+                        "url": "https://nodejs.org/dist/v25.9.0/node-v25.9.0-linux-x64.tar.gz"
+                    },
+                    "aarch64": {
+                        "url": "https://nodejs.org/dist/v25.9.0/node-v25.9.0-linux-arm64.tar.gz"
+                    },
+                    "s390x": {
+                        "url": "https://nodejs.org/dist/v25.9.0/node-v25.9.0-linux-s390x.tar.gz"
+                    },
+                    "ppc64le": {
+                        "url": "https://nodejs.org/dist/v25.9.0/node-v25.9.0-linux-ppc64le.tar.gz"
+                    }
+                },
+                "installer": {
+                }
+            },
+            "aix": {
+                "source": {
+                },
+                "archive": {
+                    "ppc64": {
+                        "url": "https://nodejs.org/dist/v25.9.0/node-v25.9.0-aix-ppc64.tar.gz"
+                    }
+                },
+                "installer": {
+                }
+            },
+            "documentation": {
+                "url": "https://nodejs.org/dist/v25.9.0/docs/api/"
+            },
+            "changelog": {
+                "url": "https://github.com/nodejs/node/releases/tag/v25.9.0"
+            }
+        }
+    }
+}
